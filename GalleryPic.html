@@ -84,7 +84,7 @@
     const bigPic = document.querySelector('.big-pic');
     
     cont.addEventListener('click', (e) => {
-      if(e.target.classList.contains('small-pic')); {
+      if(e.target.classList.contains('small-pic')) {
         bigPic.src = e.target.src;
         bigPic.classList.add('fade');
         setTimeout(() => {
